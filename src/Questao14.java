@@ -6,7 +6,7 @@ import java.util.Scanner;
  * o valor dessas variáveis invertido. 
  */
 
-public class Questão14 {
+public class Questao14 {
 
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);
