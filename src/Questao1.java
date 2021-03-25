@@ -8,7 +8,8 @@ public class Questao1 {
 	
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);
-		int a, b, c, arithmeticAverage;
+		int a, b, c;
+		float arithmeticAverage;
 	  
 
 		System.out.printf("Informe o primeiro número inteiro: ");
@@ -22,10 +23,9 @@ public class Questao1 {
 		
 		read.close();
 		
-		arithmeticAverage = ((a + b + c) / 3);
+		arithmeticAverage = (float)(a + b + c) / 3;
 		
-		System.out.printf("\nMédia aritmética entre esses números: %d\n", arithmeticAverage);
-		System.out.printf("(%d + %d + %d) / 3 = %d\n", a, b, c, arithmeticAverage);
+		System.out.printf("\nMédia aritmética entre esses números: %f\n", arithmeticAverage);
 	}
 	
 }
